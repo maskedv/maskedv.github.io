@@ -9,24 +9,14 @@ const navbar = /* html */`
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/adversary/">Adversary</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/project-online-drawing/">Project Online Drawing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a target="_blank" class="nav-link active" aria-current="page" href="https://just-vice.com">JUSTVICE website</a>
-                </li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="/mavink/">Mavink</a> </li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="/adversary/">Adversary</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="/contact">Contact</a></li>
+                <li class="nav-item"><a target="_blank" class="nav-link active" aria-current="page" href="https://just-vice.com">JUSTVICE website</a></li>
             </ul>
         </div>
     </div>
 </nav>
 `;
 
-function load_navbar(){
-    document.getElementById('navbar').innerHTML = navbar;
-}
+function load_navbar() { document.getElementById('navbar').innerHTML = navbar; }
