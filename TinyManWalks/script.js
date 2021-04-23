@@ -53,6 +53,10 @@ function download_game_android(version) {
 const platform_pc =
     [
         {
+            version: '1.3.1',
+            url: 'https://dl.dropboxusercontent.com/s/0qqdy6njmwl0m9v/Tiny%20Man%20Walks%20v1.3.1.zip?dl=0'
+        },
+        {
             version: '1.3.0',
             url: 'https://dl.dropboxusercontent.com/s/500nveovhtgd3y6/Tiny%20Man%20Walks%20v1.3.0.zip?dl=0'
         },
@@ -73,9 +77,13 @@ const platform_pc =
 const platform_android =
     [
         {
+            version: '1.3.1',
+            url: 'https://dl.dropboxusercontent.com/s/nsqv23fx5py0xxv/Tiny%20Man%20Walks%20v1.3.1.apk?dl=0'
+        },
+        {
             version: '1.3.0',
             url: 'https://dl.dropboxusercontent.com/s/qny89mxa86iot7a/TinyManWalks%20v1.3.0.apk?dl=0'
-        },
+        }
     ]
 
 // ======================================================================================================
@@ -84,6 +92,7 @@ const platform_android =
 
 const versions_pc = /* html */`
     <select class="form-select" id = 'select_version' >
+        <option value="1.3.1">1.3.1</option>
         <option value="1.3.0">1.3.0</option>
         <option value="1.1.1">1.1.1</option>
         <option value="1.1.0">1.1.0</option>
@@ -92,6 +101,7 @@ const versions_pc = /* html */`
 
 const versions_android = /* html */`
     <select class="form-select" id = 'select_version' >
+        <option value="1.3.1">1.3.1</option>
         <option value="1.3.0">1.3.0</option>
     </select >`
 
