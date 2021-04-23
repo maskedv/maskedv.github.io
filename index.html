@@ -4,31 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Masked V - Indie Game Development</title>
+    <title>Masked V</title>
     <meta name="theme-color" content="white" />
-    <meta name="author" content="JUSTVICE">
+    <meta name="author" content="JUST VICE">
     <link rel="shortcut icon" type="image/png" href="/public/img/favicon.png">
-    <meta name="description" content="Indie Game Development by JUSTVICE.">
-    <meta name="keywords" content="indie games, indie game development, justvice, vice, just vice, maskedv, masked v">
+    <meta name="description" content="Indie Game Development by JUST VICE.">
+    <meta name="keywords" content="indie games, indie game development, just vice, vice, maskedv, masked v">
     <meta property="og:title" content="Masked V" />
-    <meta property="og:url" content="https://maskedv.com/" />
+    <meta property="og:url" content="http://maskedv.com/" />
     <meta property="og:image" content="/public/img/favicon.png" />
     <meta property="twitter:site" content="@_justvice">
+
     <link rel="stylesheet" href="/public/external/bootstrap/bootstrap-5.0.0-beta.min.css">
     <script src="/public/external/bootstrap/bootstrap-5.0.0-beta.min.js"></script>
+
     <script src="/public/js/global.js"></script>
 </head>
 
 <body>
+
     <div id="navbar"></div>
+
     <div class="container">
+
         <div class="h1 mt-4">Masked V</div>
-        <div class="mt-5">
+
+        <div class="mt-3 mb-4">
             <div class="h4">Indie game development</div>
         </div>
+
+        <ul class='list_games'>
+            <li>
+                <img src="./TinyManWalks/img/icon.png" class='game-icon' alt="Tiny Man Walks icon">
+                <a href="./TinyManWalks/">Tiny Man Walks</a>
+            </li>
+        </ul>
+
     </div>
+
     <h1 style="visibility: hidden; position: fixed;">Masked V - Indie Game Development</h1>
+
     <script>load_navbar();</script>
+
+    <style>
+        .list_games {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+
+        .list_games li a {
+            margin-left: 3px;
+        }
+
+        .game-icon {
+            width: 20px;
+        }
+    </style>
 </body>
 
 </html>

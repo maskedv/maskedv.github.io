@@ -1,0 +1,32 @@
+.invisible{position:fixed;visibility:hidden;}
+.flex-center{display:flex;justify-content:center;}
+body{background-color:#95db7c;}
+text-white{color:white;}
+.navbar-light{background:#7BC061 !important;}
+.text-small{font-size:18px;}
+.demo-image, .demo-image-phone-layout{width:300px;margin-bottom:20px;}
+#container-demo-images-phone-layout{position:fixed;visibility:hidden;}
+.demo-image-phone-layout{padding-top:40px;margin-bottom:80px;margin-left:28px;}
+.form-select{background-color:#98dd7e;color:white;}
+.button-download{background-color:#7BC061;font-weight:700;font-size:20px;}
+.form-select-platform{height:34px !important;}
+.footer{text-align:center;color:white;font-size:14px;margin:auto;width:50%;}
+.footer a{color:white;}
+.footer a:hover{color:rgb(25, 18, 119)}
+@media only screen and (max-width:991px){.demo-image{position:fixed;visibility:hidden;}
+ #container-demo-images-phone-layout{position:static;visibility:visible;}
+}
+@media only screen and (max-width:681px){.demo-image-phone-layout{width:200px;}
+}
+@media only screen and (max-width:470px){.demo-image-phone-layout{width:170px;}
+}
+@media only screen and (max-width:411px){.demo-image-phone-layout{width:130px;}
+}
+@media only screen and (max-width:335px){.demo-image-phone-layout{width:110px;}
+}
+@media only screen and (max-width:409px){.text-title{font-size:22px;}
+ .text-subtitle{font-size:14px;}
+}
+@media only screen and (max-width:386px){.text-title{font-size:17px;}
+ .text-subtitle{font-size:11px;}
+}

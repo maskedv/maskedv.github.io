@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiny Man Walks</title>
+    <meta name="theme-color" content="#98dd7e" />
+    <meta name="author" content="JUST VICE">
+    <link rel="shortcut icon" type="image/png" href="./img/icon.png">
+    <meta name="description" content="Tiny Man Walks by Masked V.">
+    <meta name="keywords" content="indie games, indie game development, just vice, maskedv, masked v, tiny man walks">
+    <meta property="og:title" content="Tiny Man Walks" />
+    <meta property="og:url" content="https://maskedv.com/" />
+    <meta property="og:image" content="./img/icon.png" />
+    <meta property="twitter:site" content="@_justvice">
+
+    <link rel="stylesheet" href="/public/external/bootstrap/bootstrap-5.0.0-beta.min.css">
+    <script src="/public/external/bootstrap/bootstrap-5.0.0-beta.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="/public/js/global.js"></script>
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+    <div class="container mt-4">
+
+        <div class="flex-center">
+            <img src="./img/logo.png" alt="Tiny Man Walks logo">
+        </div>
+
+        <p class='flex-center h3 mt-4 mb-0 pb-0 text-white text-title'>
+            A game about a tiny man who walks
+        </p>
+        <span class='flex-center text-subtitle text-white text-small'>and thats all!</span>
+
+    </div>
+
+    <div class="container mt-3">
+        <div class="row">
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                <img src="./img/demo-1.gif" class='img-fluid demo-image' alt="Tiny Man Walks visual demo 1">
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+
+                <div class="text-white">
+
+                    <div class="row">
+
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <div class="h5">
+                                Platform
+                            </div>
+
+                            <select class="form-select form-select-platform" id='select_platform'>
+                                <option value="android">Android</option>
+                                <option value="pc">PC</option>
+                            </select>
+
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <div class="h5">
+                                Version
+                            </div>
+
+                            <div class="container_select_version">
+                                <select class="form-select" id='select_version'>
+                                    <option value="1.3.0">1.3.0</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <br>
+
+                <div class="d-grid gap-2">
+                    <button class='btn button-download text-white' id='button_download'>Download now</button>
+                </div>
+
+                <div id='container-demo-images-phone-layout' class='flex-center'>
+                    <img src="./img/demo-1.gif" class='img-fluid demo-image-phone-layout'
+                        alt="Tiny Man Walks visual demo 1">
+                    <img src="./img/demo-2.gif" class='img-fluid demo-image-phone-layout'
+                        alt="Tiny Man Walks visual demo 2">
+                </div>
+
+                <a href="javascript:void(0)" class='invisible' id='download_aHref'>Inki was not here</a>
+
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                <img src="./img/demo-2.gif" class='img-fluid demo-image' alt="Tiny Man Walks visual demo 2">
+            </div>
+
+        </div>
+    </div>
+
+    <h1 style="visibility: hidden; position: fixed;">Masked V - Tiny Man Walks</h1>
+
+    <div class="footer">
+        <a href="https://www.notion.so/f52f04edd2b042559ee6119df42aaca1?v=08d91f6f17144ca2b6b494cc92f97ffd"
+            target="_blank">Kanban list of tasks</a>
+        <br>
+        Wendigo Van der Blitz: art
+        <br>
+        Hich: coding support
+    </div>
+
+    <script>load_navbar();</script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
