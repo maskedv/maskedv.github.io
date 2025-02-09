@@ -1,0 +1,35 @@
+404
+<script>
+
+    function get_base_url() {
+        const currentURL = window.location.href
+        const url = new URL(currentURL)
+        return url.origin
+    }
+
+    function redirect_to(path) {
+        let directory = ''
+        // redirects to root if path is undefined
+        if (path != undefined) {
+            directory = '/' + path
+        }
+        window.location.href = get_base_url() + directory
+    }
+
+    const currentUrl = document.location.href.toLowerCase()
+    const redirect_rule = [
+        {
+            url_includes: 'tinymanwalks',
+            url_redirect: 'TinyManWalks',
+        }
+    ]
+
+    for (const rr of redirect_rule) {
+        if (currentUrl.includes(rr.url_includes)) {
+            redirect_to(rr.url_redirect)
+        }
+    }
+
+    redirect_to()
+
+</script>
