@@ -24,12 +24,18 @@
         }
     ]
 
+    let redirected = false
+
     for (const rr of redirect_rule) {
         if (currentUrl.includes(rr.url_includes)) {
+            redirected = true
             redirect_to(rr.url_redirect)
         }
     }
 
-    redirect_to()
+    if (redirected == false) {
+        redirect_to()
+    }
+
 
 </script>
