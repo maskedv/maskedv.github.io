@@ -1,0 +1,7 @@
+# dirs
+node_modules/
+js_transpiled/
+build/
+
+# dev files
+ignore.*

@@ -1,0 +1,16 @@
+{
+  "name": "masked_v_builder",
+  "description": "creates a real static website because nuxtjs and nextjs cant",
+  "version": "1",
+  "scripts": {
+    "start": "nodemon dev_service/index.js"
+  },
+  "keywords": [],
+  "author": "ZONEVICE",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.21.2",
+    "nodemon": "3.1.9",
+    "typescript": "5.7.3"
+  }
+}

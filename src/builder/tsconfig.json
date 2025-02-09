@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "core",
+    "outDir": "./js_transpiled/",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
