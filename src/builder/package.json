@@ -1,5 +1,5 @@
 {
-  "name": "masked_v_builder",
+  "name": "nnjsszn_builder",
   "description": "creates a real static website because nuxtjs and nextjs cant",
   "version": "1",
   "scripts": {
@@ -9,7 +9,8 @@
   "author": "ZONEVICE",
   "license": "MIT",
   "dependencies": {
-    "express": "4.21.2",
+    "@types/node": "22.13.1",
+    "http-server": "14.1.1",
     "nodemon": "3.1.9",
     "typescript": "5.7.3"
   }

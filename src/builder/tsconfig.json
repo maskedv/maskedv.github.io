@@ -2,7 +2,10 @@
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
-    "rootDir": "core",
+    "rootDirs": [
+      "core",
+      "site"
+    ],
     "outDir": "./js_transpiled/",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,

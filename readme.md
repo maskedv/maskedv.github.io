@@ -1,6 +1,6 @@
 # About
 
-this creates a static website for maskedv.com since NuxtJS and NextJS failed on me
+This creates a static website for maskedv.com since NuxtJS and NextJS failed on me
 
 # Dev guide
 
@@ -18,7 +18,9 @@ Initiate Typescript transpiler `npx tsc --watch` to create `js_transpiled` direc
 
 Initiate the main process with `npm start` which opens a web development viewer and runs the core transpiled JavaScript code.
 
-Output static website will be at `src/builder/build/`. That result is what is pushed into `master` branch.
+Output static website will be at `src/builder/build/`. That result is what is pushed into `master` branch. It also generates the static website in `builder/build/`
+
+To see the website on the browser, in a terminarl go to `builder/build/` and execute `npx http-server`.
 
 # CI/CD
 
