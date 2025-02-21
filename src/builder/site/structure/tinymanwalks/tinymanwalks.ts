@@ -4,24 +4,38 @@ import { NavbarElement } from "../../../core/page_def/mode_1/navbar"
 function tinymanwalks(): void {
     const page = new Page()
     page.head.content = `<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiny Man Walks</title>
+    vheadseov
     <meta name="theme-color" content="#98dd7e" />
-    <meta name="author" content="ZONEVICE">
     <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/maskedv/maskedv.github.io/refs/heads/data/img/tinymanwalks/icon.png">
-    <meta name="description" content="Tiny Man Walks by Masked V. A game where a tiny man walks around.">
-    <meta property="og:description" content="Tiny Man Walks by Masked V. A game where a tiny man walks around." />
-    <meta name="keywords" content="indie games, indie game development, zonevice, zone vice, vice, maskedv, masked v, tiny man walks">
-    <meta property="og:title" content="Tiny Man Walks" />
-    <meta property="og:url" content="https://maskedv.com/" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/maskedv/maskedv.github.io/refs/heads/data/img/tinymanwalks/icon.png" />
-    <meta property="twitter:site" content="@_justvice">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <script src="/public/js/global.js"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>`
+    page.head.head_ceo
+        .set_basic(
+            'Tiny Man Walks',
+            'Tiny Man Walks by Masked V. A game where a tiny man walks around.',
+            'indie games, indie game development, zonevice, zone vice, vice, maskedv, masked v, tiny man walks',
+            'ZONEVICE',
+        )
+        .set_og(
+            'Tiny Man Walks',
+            'website',
+            'https://raw.githubusercontent.com/maskedv/maskedv.github.io/refs/heads/data/img/tinymanwalks/icon.png',
+            'tiny man walks icon',
+            'Tiny Man Walks',
+            'Tiny Man Walks by Masked V. A game where a tiny man walks around.',
+            'https://www.maskedv.com/TinyManWalks',
+        )
+        .set_twitter(
+            'summary',
+            '@_ZONEVICE',
+            '@_ZONEVICE',
+            'https://raw.githubusercontent.com/maskedv/maskedv.github.io/refs/heads/data/img/tinymanwalks/icon.png',
+            'tiny man walks icon',
+            'Tiny Man Walks by Masked V. A game where a tiny man walks around.',
+        )
+    page.head.resolve_head_seo()
     page.body.content = `<body>
     vnavbarv
 
